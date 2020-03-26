@@ -4,6 +4,9 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ .welcome{
+  font-size: 29px !important;
+ }
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9016,7 +9019,7 @@ h1, h2, h3, h4, h5,
       .ftco-about-section .one-half.half-text .text-inner .watchvideo-heading a {
         color: #000000; }
   .ftco-about-section .img {
-    height: 800px;
+    height: 600px;
     background: #ffd615;
     background-position: center center;
     background-size: cover;
@@ -9075,11 +9078,11 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 2em 0;
+  padding: 7em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 2em 0; } }
+      padding: 6em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -9205,7 +9208,7 @@ textarea.form-control {
   .media .ftco-icon span {
     color: #ffd615; }
 
-#map {
+#maps {
   height: 400px;
   width: 100%; }
   @media (max-width: 767.98px) {
